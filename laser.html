@@ -1,0 +1,268 @@
+<!DOCTYPE HTML>
+<!--
+	Editorial by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>Laser Cutting</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+	</head>
+	<body class="is-preload">
+
+		<!-- Wrapper -->
+			<div id="wrapper">
+
+				<!-- Main -->
+					<div id="main">
+						<div class="inner">
+
+							<!-- Header -->
+								<header id="header">
+									<a href="index.html" class="logo"><strong>Laser Cutting</strong></a>
+									
+								</header>
+
+							<!-- Content -->
+								<section>
+									<header class="main">
+										<h1></h1>
+									</header>
+                                  
+									<!--<span class="image main"><img src="images/pic11.jpg" alt="" /></span>
+                                    -->
+                                    
+									<p>The following is a detailed description of of the third project in the university course VÉL403G. The objective of this particular project is in three parts. 
+                                        The first one is to do some kerf calculations. The laser burns away a portion of material when it cuts through. Kerf is the calibration of that material burning.
+                                        
+                                        The second one is to use a laser cutter to make a pressfit model. Press-fit construction is also known as interference fit or friction fit. In summary, your pieces must fit together without using glue, nails, screws or other fasteners. 
+                                    And the third part is to use a vinyl cutter to make a sticker
+                                        
+                                        that can´t be replicated using subtractive methods (CNC etc.) and to document the restrictions of the 3D printer. The object can´t be more than 100g of plastic. The second part of the project is to 3D scan an object. Here you'll find the documented process of the project and a step-by-step description on how to do it yourself!</p>
+                                    
+                                                                
+									<hr class="major" />
+                                    
+                                    <h2>Preperation</h2>
+                                    <p>I began with downloading the recommended softwares for the project.</p>
+                                    <div class="row">
+														<div class="col-6 col-12-small">
+
+															
+															<ul>
+																<li><a href="https://www.autodesk.com/products/fusion-360/education">Fusion 360</a> - CAD software</li>
+																<li><a href="https://inkscape.org/release/inkscape-1.2.2/">Inkscape</a> - A professional quality vector graphics software</li>
+																
+															</ul>
+
+															
+														</div>
+														
+													</div>
+                                    
+                                    <hr class="major" />
+
+									<h2>Kerf</h2>
+									<p>The kerf calculations were done in a group. We documented the progress on <a href="https://arondb.github.io/PersonalPortfolioVEL608G/verkefni2.html">Aron´s</a> homepage. Go ahead and check it out.</p>
+                                    
+                                    <hr class="major" />
+                                    
+                                    <h2>Laser cutting</h2>
+									<p>It took me a while to decide what to. Not because I didn´t have any ideas but because I wanted to make something I´d actually use and not throw into storage and never see again. After a little thinking I came to the conclusion that I needed a stand for my computer. </p>
+                                    
+                                    <div class="container">
+                                      <div class="image"> <img src="img1/front.png" alt="This is my image." height="475px"/> </div> 
+                                      <div class="image"> <img src="img1/hlid.png" alt="This is my second image." height="500px"/> </div> 
+                                     
+                                    </div>
+
+                                  
+
+									
+
+									
+                                    
+                                        
+                                         
+                                    
+                                        <p>
+                                        
+                                        I began with drawing the stand. If you want to draw exactly the same stand feel free to. If you´re new to Fusion 360 I recommend checking out this <a href="https://www.youtube.com/watch?v=d3qGQ2utl2A&ab_channel=ProductDesignOnline">video</a>. It helped me out a lot when I first got to know the software.</p>
+                                    
+                                    <span class="image fit"><img src="img1\laser1.PNG" alt="" /></span>
+                                    <span class="image fit"><img src="img1\laser2.PNG" alt="" /></span>
+                            <p>
+                                A part of the project was to use parameters. I´m quite new to that but it really pays off to do so, especially if you have to change something afterwards. If you wanna use it as well simply choose modify on the banner and the parameters. Here are my parameters in case you wanna check it out.</p>
+                            
+                             <span class="image fit"><img src="img1\parameters.png" alt="" /></span>
+                            
+                            
+                                    
+                            <p>
+                            When I had finished drawing the stand I had to get it ready for being cut. If you want to do that I recommend checking out <a href="https://www.youtube.com/watch?v=D1Btaqhog9E&ab_channel=FabLabAkureyri">
+Fab Lab Akureyri</a>. The instructor goes step by step through the whole process and explains it much better than I ever could. Even if you don´t speak Icelandic it´s quite easy to follow. Check it out before you proceed with the rest of this paragreaph.
+                                    </p>
+                                    
+                                    <p>
+                                    Now that you've watched the video and checked out our kerf documentation we can proceed. I did a few tests with the kerf and came to the conclusion that 0,022 was the best kerf to go with. Note that when you´re doing these tests it´s clever to use as little material as possible by squeezing as many tests on one test as possible. If what I just said didn´t make any sense, don´t sweat. Here are some picture to help our understand better what I mean.</p>
+                                    
+                                    <span class="image fit"><img src="img1\test.jpeg" class="center" alt="" style="max-width: 40%;"/></span>
+                                    
+                                    <div class="container">
+                                      <div class="image"> <img src="img1/test2.jpeg" alt="This is my image." height="745px"/> </div> 
+                                      <div class="image"> <img src="img1/test1.jpeg" alt="This is my second image." height="745px"/>
+                                    
+                                     
+                                    </div>
+                                    
+                                    
+													
+                                        <h3>
+                                            The steps for using the laser cutter are as follows:</h3> 
+                                    <dl>
+														<dt>1. Open up the drawing in Inkscape on the computer that´s hooked up to tha laser cutter</dt>
+														
+														<dt>2. Choose                                               <code>Object</code> -> <code>Fill and stroke</code> and under <code>Fill</code> choose <code>No print</code>, under <code>Stroke paint</code> choose <code>Flat color</code> and under <code>Stroke style</code> choose a width of 0,02 mm.</dt>
+														
+													
+														<dt>3. Press <code>Ctrl+p</code> and choose your laser cutter.</dt>
+														
+                                                        <dt>4. Turn the Speed to 10%</dt>
+                                                        <dt>5. Turn the Power to 100%</dt>
+                                                        <dt>6. Turn the Frequency to 10%</dt>
+                                                        <dt>7. Turn the auto focus to thickness and then type in the thickness ofyour panel (4 mm in my case)</dt>
+                                                        <dt>8. Now press <code>Print</code></dt>
+                                                        <dt>9. TURN ON THE AIR VALVE TO YOUR LASER CUTTER!!! </dt>
+                                                        <dt>10. Choose your file on the laser cutter and press play</dt>
+                                                        <dt>11. DO NOT LEAVE ITS SIDE TILL IT´S DONE!!!</dt>
+														
+                           
+                                                        
+                                    
+													</dl>
+                                        
+                                    
+                                    
+                                        
+                                        
+                                        
+                                    <p>    
+                                        I realised that my pieces were a little of and the kerf didn´t quite work all the time. I suspect it´s because I cut out all the parts in one go and the panel must have shifted because of its weight change and it not being totally flat. If I were to do this again I would most likely do it part by part to avoid this problem. 
+                                    </p>
+                            
+                            <hr class="major" />
+                            
+                                        <h2>Vinyl Cutting</h2>
+                            
+                            
+                            
+                                    
+                                    <p>I´m really into mountains so I decided to cut out a K2 sticker for my laptop. I simply googled "k2 vector form" and downloaded the first thing that came up. Then I opened up the picture in my Inkscape software. I then created a sheet set the size of it to 50mmx100mm and placed my mountain it and hit <code>Ctrl+a</code> and chose <code>Path</code> -> <code>Object to path</code> -> <code>Ok</code> to trace the picture. If you´re having trouble with this part, check out this <a href="https://www.google.com/search?q=path+object+to+path+inkscape&biw=731&bih=325&tbm=vid&sxsrf=AJOqlzVgrzv83fn3mFMvI3r7annPaagsHw%3A1679591030559&ei=doYcZM7iIeO78gKx85XoDg&ved=0ahUKEwjO9fmVxPL9AhXjnVwKHbF5Be0Q4dUDCA0&uact=5&oq=path+object+to+path+inkscape&gs_lcp=Cg1nd3Mtd2l6LXZpZGVvEAMyBggAEAgQHjIGCAAQCBAeMgUIABCGAzIFCAAQhgMyBQgAEIYDOgUIABCABDoGCAAQFhAeOggIABAWEB4QDzoECCMQJzoGCAAQBxAeOgcIIxCwAhAnOgcIABCABBANOggIABAIEAcQHjoICAAQBRAeEA06CAgAEAgQHhANUI4aWJweYKYhaABwAHgAgAGRAYgB0gaSAQMxLjaYAQCgAQHAAQE&sclient=gws-wiz-video#fpstate=ive&vld=cid:c428f62c,vid:a7Y9u0ILQuA">video</a>.  I then proceeded to export the outlines. Then I inserted the vinyl into the cutter, chose <code>Select sheet</code> -> <code>Edge</code> on the cutter itself and started the process.</p>
+                                        
+                                        <div class="container">
+                                      <div class="image"> <img src="img1/k21.jpeg" alt="This is my image." height="400px"/> </div> 
+                                      <div class="image"> <img src="img1/k22.jpeg" alt="This is my second image." height=400px"/>
+                                    
+                                     
+                                    </div>
+                                  
+                                    
+						
+									
+
+								
+					</div>
+
+				<!-- Sidebar -->
+					<div id="sidebar">
+						<div class="inner">
+
+							<!-- Search -->
+								<section id="search" class="alt">
+									<form method="post" action="#">
+										<input type="text" name="query" id="query" placeholder="Search" />
+									</form>
+								</section>
+
+							<!-- Menu -->
+								<nav id="menu">
+									<header class="major">
+										<h2>Menu</h2>
+									</header>
+									<ul>
+										<li><a href="index.html">Homepage</a></li>
+										<li><a href="CV.html">CV</a></li>
+									
+										<li>
+											<span class="opener">Projects</span>
+											<ul>
+												<li><a href="website.html">Website</a></li>
+												<li><a href="3d.html">3D Printing and Scanning</a></li>
+                                                <li><a href="laser.html">Laser Cutting</a></li>
+											</ul>
+										</li>
+										
+										
+									</ul>
+								</nav>
+
+							<!-- Section 
+								<section>
+									<header class="major">
+										<h2>Ante interdum</h2>
+									</header>
+									<div class="mini-posts">
+										<article>
+											<a href="#" class="image"><img src="images/pic07.jpg" alt="" /></a>
+											<p>Aenean ornare velit lacus, ac varius enim lorem ullamcorper dolore aliquam.</p>
+										</article>
+										<article>
+											<a href="#" class="image"><img src="images/pic08.jpg" alt="" /></a>
+											<p>Aenean ornare velit lacus, ac varius enim lorem ullamcorper dolore aliquam.</p>
+										</article>
+										<article>
+											<a href="#" class="image"><img src="images/pic09.jpg" alt="" /></a>
+											<p>Aenean ornare velit lacus, ac varius enim lorem ullamcorper dolore aliquam.</p>
+										</article>
+									</div>
+									<ul class="actions">
+										<li><a href="#" class="button">More</a></li>
+									</ul>
+								</section>
+
+							 Section -->
+								<section>
+									<header class="major">
+										<h2>Get in touch</h2>
+									</header>
+									<p>Feel free to contact to be in touch.</p>
+									<ul class="contact">
+										<li class="icon solid fa-envelope"><a href="#">tojoh99@gmail.com</a></li>
+                                        <li class="icon solid fa-envelope"><a href="#">tij9@hi.is</a></li>
+										<!--<li class="icon solid fa-phone">(000) 000-0000</li> -->
+										<!--<li class="icon solid fa-home">1234 Somewhere Road #8254<br />
+										Nashville, TN 00000-0000</li>  -->
+									</ul>
+								</section>
+
+							<!-- Footer -->
+				<!--				<footer id="footer">
+									<p class="copyright">&copy; Untitled. All rights reserved. Demo Images: <a href="https://unsplash.com">Unsplash</a>. Design: <a href="https://html5up.net">HTML5 UP</a>.</p>
+								</footer> -->
+
+						</div>
+					</div>
+			</div>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>
